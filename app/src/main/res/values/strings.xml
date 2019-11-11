@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="settings">Настройки</string>
+    <string name="action_update">Обновить</string>
+    <string name="start_title">Главная</string>
+    <string name="period">Период генерации списка</string>
+    <string name="age">Диапазон возраста</string>
+    <string name="try_upd">Обновите список</string>
+
+    <string-array name="names_w">
+        <item>Ольга</item>
+        <item>Юлия</item>
+        <item>Анна</item>
+        <item>Нина</item>
+        <item>Анастасия</item>
+    </string-array>
+    <string-array name="names_m">
+        <item>Виктор</item>
+        <item>Петр</item>
+        <item>Андрей</item>
+        <item>Семен</item>
+        <item>Игорь</item>
+    </string-array>
+    <string-array name="s_names_m">
+        <item>Иванов</item>
+        <item>Сидоров</item>
+        <item>Петренко</item>
+        <item>Мамаев</item>
+        <item>Попутько</item>
+    </string-array>
+    <string-array name="s_names_w">
+        <item>Иванова</item>
+        <item>Грач</item>
+        <item>Сидорова</item>
+        <item>Дворова</item>
+        <item>Петрова</item>
+    </string-array>
+    <string-array name="names_job">
+        <item>KFC</item>
+        <item>МТС</item>
+        <item>Мегафон</item>
+        <item>Билайн</item>
+        <item>ИП Петрова</item>
+        <item>Макдональдс</item>
+        <item>Пятерочка</item>
+        <item>Магнит</item>
+        <item>Игротйам</item>
+        <item>МВД РФ Ленинский отдел г.Пермь</item>
+    </string-array>
+
+</resources>

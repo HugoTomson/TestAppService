@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Settings_Activity"
+    tools:showIn="@layout/activity_settings_">
+
+    <TextView
+        android:id="@+id/period"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/period"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext_period"
+        android:layout_width="39dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="12dp"
+        android:hint="30"
+
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/period"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/period"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/age"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/period"
+        app:layout_constraintTop_toBottomOf="@+id/period" />
+
+
+    <EditText
+        android:id="@+id/age_to"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="12dp"
+        android:hint="60"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/age" />
+
+    <TextView
+        android:id="@+id/age2"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginEnd="16dp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/age_to"
+        app:layout_constraintEnd_toStartOf="@+id/age_to"
+        app:layout_constraintTop_toTopOf="@+id/age_to"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/age_from"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:hint="18"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/age_to"
+        app:layout_constraintEnd_toStartOf="@+id/age2"
+        app:layout_constraintTop_toTopOf="@+id/age_to" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
